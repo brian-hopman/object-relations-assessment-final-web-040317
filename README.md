@@ -23,16 +23,16 @@ We've provided you with a console that you can use to test your code. To enter a
 ## Deliverables
 
 Build the following methods on the viewer class
-+ Viewer.all
++ Viewer.all ------
   + should return all of the viewers
-+ Viewer.find_by_name(name)
++ Viewer.find_by_name(name) ---------
   + given a string of a full name, returns the first customer whose full name matches
-+ Viewer#create_rating
++ Viewer#create_rating ----------
   + given a score and a movie, creates a new Rating and associates it with that viewer and that movie
 
 Build out the following methods on the Rating class
 
-+ Rating.all
++ Rating.all ------
   + returns all of the ratings
 + Rating#viewer
   + returns the viewer for that given rating
@@ -41,11 +41,11 @@ Build out the following methods on the Rating class
 
 Build out the following methods on the movie class
 
-+ Movie.all
++ Movie.all ----------
   + returns an array of all movies
-+ Movie.find_by_title(title)
++ Movie.find_by_title(title) -------
   + given a string of movie title, returns the first movie that matches
-+ Movie#ratings
++ Movie#ratings ----------
   + returns an array of all ratings for that movie
 + Movie#viewers
   + should return all of the viewers who have left ratings for that movie.
